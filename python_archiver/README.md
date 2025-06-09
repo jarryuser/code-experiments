@@ -1,4 +1,4 @@
-# Python Huffman Архиватор
+# Python Huffman Archiver
 
 ## Description
 File archiver based in the Huffman Coding algorithm with support for multiple files
