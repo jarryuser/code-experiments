@@ -3,6 +3,7 @@
 ## Description
 
 This console application allows the user to manage a list of contacts: add, view, search, and in the future — save and edit them. The project is written in C and is designed to run in a Linux environment (including WSL/Debian).
+
 ---
 
 
