@@ -16,6 +16,16 @@ This console application allows the user to manage a list of contacts: add, view
 
 ---
 
+## Current functionality
+
+| Posibility                      | Implemented |
+|---------------------------------|-------------|
+| A menu with a choice of actions | ✅          |
+| Add contact                     | ✅          |
+| View all saved contacts         | ✅          |
+| Checking the correctness of userinput (for example, protecting against input instead of a number| ✅          |
+| Массив для хранения до 100 контактов | ✅    |
+
 ## Project structure
 
 ```bash
