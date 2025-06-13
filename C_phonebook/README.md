@@ -1,16 +1,4 @@
-```sql
-    ______  __    __   _______  __       __  ________
-   /      ||  |  |  | |   ____||  |     |  |/  _____/
-  |  ,----'|  |__|  | |  |__   |  |     |  |  |  __  
-  |  |     |   __   | |   __|  |  |     |  |  | |_ | 
-  |  `----.|  |  |  | |  |____ |  `----.|  |  |__| | 
-   \______||__|  |__| |_______||_______||__|\______| 
-     PHONE BOOK MINI PROJECT (C Language)
-
-```
-
-
-<!-- # 📞 Phone Book Mini Project in C -->
+# 📞 Phone Book Mini Project in C
 
 ## Description
 
@@ -96,11 +84,11 @@ Wrong input. Please input number
 ## Plans
 | Posibility                      | Status |
 |---------------------------------|-------------|
-| Saving contacts in file         | ✅          |
-| Delete contact                  | ✅          |
-| Edit contact                    | ✅          |
-| Find by name                    | ✅          |
-| Sort                            | ✅          |
+| Saving contacts in file         | 🕒          |
+| Delete contact                  | 🕒          |
+| Edit contact                    | 🕒          |
+| Find by name                    | 🕒          |
+| Sort                            | 🕒          |
 
 
 
