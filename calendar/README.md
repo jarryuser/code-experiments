@@ -59,6 +59,3 @@ calendar/
 ├── [e.g., script.js]
 └── [e.g., README.md]
 ```
-
-## Contributing
-Feel free to fork the [code-experiments repository](https://github.com/jarryuser/code-experiments) and submit pull requests for improvements to the `calendar` project.
