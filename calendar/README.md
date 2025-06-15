@@ -66,9 +66,3 @@ calendar/
 
 ## Contributing
 Feel free to fork the [code-experiments repository](https://github.com/jarryuser/code-experiments) and submit pull requests for improvements to the `calendar` project.
-
-## License
-[Specify the license, e.g., "This project is licensed under the MIT License. See the LICENSE file in the repository root for details."]
-
-## Contact
-For questions or feedback, reach out via [your preferred contact method, e.g., GitHub issues or email].
