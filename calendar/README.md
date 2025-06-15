@@ -1,7 +1,7 @@
 # Calendar Project
 
 ## Overview
-This is the `calendar` project, part of the [code-experiments repository](https://github.com/jarryuser/code-experiments). It is a [brief description of what the project does, e.g., "web-based interactive calendar application built with HTML, CSS, and JavaScript"]. This project demonstrates [key features or skills, e.g., "responsive design, date handling, and user interaction"].
+This is the `calendar` project, part of the [code-experiments repository](https://github.com/jarryuser/code-experiments). It is a calendar project is a console-based calendar application written in C. It allows users to display a monthly or yearly calendar, navigate through dates, and manage events or tasks via a text-based interface.
 
 ## How to Download the Project
 You can download only the `calendar` project folder without cloning the entire repository using one of the following methods.
@@ -26,7 +26,7 @@ git pull origin main
 **Result**: The `calendar` folder will be downloaded to the `calendar-project` directory.
 
 ### Option 2: Using DownGit (Alternative for Non-Developers)
-This method downloads the `calendar` folder as a ZIP archive using [DownGit](https://minhask.github.io/DownGit/). Requires `curl` or `wget` (pre-installed on most Linux/macOS systems; for Windows, use Git Bash, WSL, or Cygwin).
+This method downloads the `calendar` folder as a ZIP archive using [DownGit](https://minhask.github.io/DownGit/). Requires `curl` or (pre-installed on most Linux/macOS systems; for Windows, use Git Bash, WSL, or Cygwin).
 
 Using `curl`:
 ```bash
@@ -34,11 +34,7 @@ curl -L "https://download-directory.github.io/?url=https://github.com/jarryuser/
 unzip calendar.zip
 ```
 
-Using `wget`:
-```bash
-wget "https://download-directory.github.io/?url=https://github.com/jarryuser/code-experiments/tree/main/calendar" -O calendar.zip
-unzip calendar.zip
-```
+
 
 **Result**: The `calendar` folder will be extracted from the ZIP archive.
 
