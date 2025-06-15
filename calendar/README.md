@@ -9,10 +9,12 @@ You can download only the `calendar` project folder without cloning the entire r
 ### Option 1: Using Git Sparse Checkout (Recommended for Developers)
 This method downloads only the `calendar` folder while preserving Git functionality. Requires [Git](https://git-scm.com/) to be installed.
 
-**Installation**:
+**Install git**:
 - Linux: `sudo apt install git`
 - macOS: `brew install git`
 - Windows: Install [Git for Windows](https://git-scm.com/download/win)
+
+**Install `calendar` with git**
 
 ```bash
 mkdir calendar-project && cd calendar-project
@@ -27,7 +29,7 @@ git pull origin main
 **Result**: The `calendar` folder will be downloaded to the `calendar-project` directory.
 
 ### Option 2: Using DownGit (Alternative for Non-Developers)
-This method downloads the `calendar` folder as a ZIP archive using [DownGit](https://minhask.github.io/DownGit/). Requires `curl` or (pre-installed on most Linux/macOS systems; for Windows, use Git Bash, WSL, or Cygwin).
+This method downloads the `calendar` folder as a ZIP archive using [DownGit](https://minhask.github.io/DownGit/). Requires `curl` (pre-installed on most Linux/macOS systems; for Windows, use Git Bash, WSL, or Cygwin).
 
 Using `curl`:
 ```bash
@@ -42,9 +44,9 @@ unzip calendar.zip
 ## Installation
 1. Download the project using one of the methods above.
 2. Navigate to the `calendar` folder:
-   ```bash
+```bash
    cd calendar
-   ```
+```
 ## Make and run
 ```bash
 # Make
