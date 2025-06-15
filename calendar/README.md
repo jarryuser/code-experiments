@@ -1,13 +1,18 @@
 # Calendar Project
 
 ## Overview
-This is the `calendar` project, part of the [code-experiments repository](https://github.com/jarryuser/code-experiments). It is a calendar project is a console-based calendar application written in C. It allows users to display a monthly or yearly calendar, navigate through dates, and manage events or tasks via a text-based interface.
+This is the `calendar` project, part of the [code-experiments repository](https://github.com/jarryuser/code-experiments). It is a calendar project is a console-based calendar application written in C. It allows users to display a monthly calendar, and manage events or tasks via a text-based interface.
 
 ## How to Download the Project
 You can download only the `calendar` project folder without cloning the entire repository using one of the following methods.
 
 ### Option 1: Using Git Sparse Checkout (Recommended for Developers)
 This method downloads only the `calendar` folder while preserving Git functionality. Requires [Git](https://git-scm.com/) to be installed.
+
+**Installation**:
+- Linux: `sudo apt install git`
+- macOS: `brew install git`
+- Windows: Install [Git for Windows](https://git-scm.com/download/win)
 
 ```bash
 mkdir calendar-project && cd calendar-project
@@ -18,10 +23,6 @@ git sparse-checkout set calendar
 git pull origin main
 ```
 
-**Installation**:
-- Linux: `sudo apt install git`
-- macOS: `brew install git`
-- Windows: Install [Git for Windows](https://git-scm.com/download/win)
 
 **Result**: The `calendar` folder will be downloaded to the `calendar-project` directory.
 
@@ -44,18 +45,10 @@ unzip calendar.zip
    ```bash
    cd calendar
    ```
-3. [Add specific installation steps, e.g., "If the project requires dependencies, install them using `npm install` for Node.js-based projects or specify other requirements."]
-
-## Usage
-1. [Add usage instructions, e.g., "Open `index.html` in a web browser to view the calendar."]
-2. [Include any specific commands or steps, e.g., "Run `npm start` to launch a local development server."]
-3. [Mention any configuration or environment setup if needed.]
-
-## Project Structure
-```
-calendar/
-├── [list key files or folders, e.g., index.html]
-├── [e.g., styles.css]
-├── [e.g., script.js]
-└── [e.g., README.md]
+## Make and run
+```bash
+# Make
+make
+# Run
+make run
 ```
