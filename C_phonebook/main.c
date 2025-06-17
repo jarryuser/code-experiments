@@ -36,28 +36,66 @@ void list_contacts() {
 	}
 }
 
-/* I need to tell someone */
+void delete_contact() {
+    if (contact_count == 0) {
+        printf("Contacts list is empty");
+        return;
+    }
+
+    char name_to_delete[50];
+    printf("Enter the name of the contact you want to delete: ");
+    fgets(name_to_delete, sizeof(name_to_delete), stdin);
+    name_to_delete[strcspn(name_to_delete, "\n")] = '\0';
+    
+    int found = 0;
+    for (int i = 0; i < contact_count; i++) {
+        if (strcmp(contacts[i].name, name_to_delete) == 0) {
+            for (int j = i; j < contact_count - 1; j++) {
+                contacts[j] = contacts [j + 1];
+            } 
+            contact_count--;
+            found = 1;
+            printf("Contact \"%s\" deleted.\n", name_to_delete);
+            break;
+        }
+    }
+    if (!found) {
+        printf("Contact with name \"%s\" not found. \n", name_to_delete);
+    }
+
+}
+
+
 int main() {
 	char input[20];
 	int choice;
 
 	while (1) {
-		printf("\n1. Add contact\n2. Show contacts\n3. Exit\nChoice: ");
+		printf("\n1. Add contact\n2. Show contacts\n3. Delete contact\n4. Exit\n");
 
-		if (!fgets(input, sizeof(input), stdin)) {
-			printf("Input error\n");
-			continue;
-		}
+        printf("Choice: ");
+        if (!fgets(input, sizeof(input), stdin)) {
+            clearerr(stdin); 
+            continue;
+        }
+        
+        input[strcspn(input, "\n")] = '\0';
+        
+        if (strlen(input) == 0) {
+            continue;
+        }
 
-		if (sscanf(input, "%d", &choice) !=1) {
-			printf("Wrong input. Please input number\n");
-			continue;
-		}
+        if (sscanf(input, "%d", &choice) != 1) {
+            printf("Please, input a number of choice (1–4).\n");
+            continue;
+        } 
 
 		switch (choice) {
-			case 1: add_contact(); break;
-			case 2: list_contacts(); break;
-			case 3: return 0;
+			case 1: add_contact(); continue;
+			case 2: list_contacts(); continue;
+			case 3: delete_contact(); continue;
+            case 4: printf("Exit...\n"); return 0;
 			default: printf("Wrong choice\n");
-		} }
+		} 
+    }
 }
